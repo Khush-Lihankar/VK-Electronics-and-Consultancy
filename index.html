@@ -1,0 +1,1160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="VK Electronics and Consultancy helps startups, schools, and college students turn electronics ideas into working prototypes."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Font styles loaded through the installed @fontsource packages -->
+    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>VK Electronics and Consultancy | From Idea to Prototype</title>
+  </head>
+
+  <body>
+    <header class="site-header" id="main-header" data-testid="navbar">
+      <div class="container nav-shell">
+        <a
+          class="brand"
+          href="#hero"
+          aria-label="VK Electronics and Consultancy home"
+          data-testid="brand-home-link"
+        >
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <rect
+                x="7"
+                y="7"
+                width="18"
+                height="18"
+                rx="3"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M12 2v5M20 2v5M12 25v5M20 25v5M2 12h5M25 12h5M2 20h5M25 20h5"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="m12 17 3 3 5-7"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+
+          <span class="brand-copy" data-testid="brand-name">
+            <strong>VK</strong>
+            <span>Electronics &amp; Consultancy</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          data-testid="mobile-menu-toggle"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav
+          class="main-nav"
+          id="main-nav"
+          aria-label="Primary navigation"
+          data-testid="primary-navigation"
+        >
+          <a href="#hero" data-testid="nav-link-home">Home</a>
+          <a href="#services" data-testid="nav-link-services">Services</a>
+          <a href="#team" data-testid="nav-link-team">Team</a>
+          <a href="#projects" data-testid="nav-link-projects">Projects</a>
+          <a href="#contact" data-testid="nav-link-contact">Contact</a>
+        </nav>
+
+        <!-- EDIT YOUR WHATSAPP PHONE NUMBER HERE:
+             Replace 91XXXXXXXXXX with your real number including country code. -->
+        <a
+          class="button button-small button-outline nav-whatsapp"
+          href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20your%20electronics%20consultancy%20services"
+          target="_blank"
+          rel="noopener"
+          aria-label="Chat with VK Electronics on WhatsApp"
+          data-testid="nav-whatsapp-button"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path
+              d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.2.4 11.7c0 2.1.6 4.1 1.6 5.8L.3 23.8l6.5-1.7a11.8 11.8 0 0 0 5.3 1.3h.1c6.4 0 11.7-5.2 11.7-11.7 0-3.1-1.2-6.1-3.4-8.2ZM12.1 21.4c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.9 1 1-3.8-.2-.4a9.6 9.6 0 0 1-1.5-5.1c0-5.3 4.3-9.6 9.6-9.6 2.6 0 5 1 6.8 2.8a9.6 9.6 0 0 1 2.8 6.8c0 5.4-4.3 9.8-9.6 9.8Zm5.3-7.2c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.7.9-.8 1.1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.8-3.2-.3-.5.3-.5.8-1.7.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.8 4.3 1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.1.1-1.2-.1-.2-.3-.3-.6-.4Z"
+            />
+          </svg>
+
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-grid" id="hero" data-testid="hero-section">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal" data-testid="hero-copy">
+            <p class="eyebrow" data-testid="hero-eyebrow">
+              <span class="eyebrow-dot"></span>
+              Electronics consultancy for real-world ideas
+            </p>
+
+            <h1 data-testid="hero-heading">
+              Turn your electronics ideas into
+              <span>working prototypes.</span>
+            </h1>
+
+            <p class="hero-text" data-testid="hero-description">
+              Practical guidance for startups, schools, and college students —
+              from the first circuit sketch to a confident, testable build.
+            </p>
+
+            <div class="hero-actions" data-testid="hero-actions">
+              <!-- EDIT YOUR WHATSAPP PHONE NUMBER HERE:
+                   Replace 91XXXXXXXXXX with your real number including country code. -->
+              <a
+                class="button button-primary"
+                href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20your%20electronics%20consultancy%20services"
+                target="_blank"
+                rel="noopener"
+                aria-label="Chat on WhatsApp with VK Electronics and Consultancy"
+                data-testid="hero-whatsapp-btn"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path
+                    d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.2.4 11.7c0 2.1.6 4.1 1.6 5.8L.3 23.8l6.5-1.7a11.8 11.8 0 0 0 5.3 1.3h.1c6.4 0 11.7-5.2 11.7-11.7 0-3.1-1.2-6.1-3.4-8.2Z"
+                  />
+                </svg>
+
+                Chat on WhatsApp
+                <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                class="text-link"
+                href="#services"
+                data-testid="hero-services-link"
+              >
+                Explore services
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+
+            <div class="hero-proof" data-testid="hero-proof">
+              <div>
+                <strong>10</strong>
+                <span>ways we can<br />help</span>
+              </div>
+
+              <div>
+                <strong>1:1</strong>
+                <span>practical<br />guidance</span>
+              </div>
+
+              <div>
+                <strong>∞</strong>
+                <span>ideas worth<br />building</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="hero-visual reveal reveal-delay"
+            data-testid="hero-visual"
+            aria-label="Illustration of a connected electronics circuit"
+            role="img"
+          >
+            <div class="blueprint-card">
+              <div class="blueprint-topline">
+                <span>PROJECT / 001</span>
+                <span>VK_EC</span>
+              </div>
+
+              <svg
+                class="circuit-art"
+                viewBox="0 0 560 470"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  class="circuit-line faint"
+                  d="M42 84h94v48h62m0 0v75h90m0 0v84h-81m81-84h116V95h83m-83 116v81h120M42 384h100v-73h55m-69-227v-48h51m174 241v85h67"
+                />
+
+                <path
+                  class="circuit-line"
+                  d="M42 84h94v48h62m0 0v75h90m0 0v84h-81m81-84h116V95h83m-83 116v81h120M42 384h100v-73h55m-69-227v-48h51m174 241v85h67"
+                />
+
+                <rect
+                  x="198"
+                  y="157"
+                  width="180"
+                  height="180"
+                  rx="18"
+                  fill="#fff"
+                  stroke="#1E5AFF"
+                  stroke-width="3"
+                />
+
+                <rect
+                  x="224"
+                  y="183"
+                  width="128"
+                  height="128"
+                  rx="8"
+                  fill="#EFF4FF"
+                  stroke="#BFDBFE"
+                  stroke-width="2"
+                />
+
+                <path
+                  d="M248 222h80M248 246h53M248 270h63"
+                  stroke="#1E5AFF"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  d="M224 207h-16M224 231h-16M224 255h-16M224 279h-16M352 207h16M352 231h16M352 255h16M352 279h16M248 183v-16M272 183v-16M296 183v-16M320 183v-16M248 311v16M272 311v16M296 311v16M320 311v16"
+                  stroke="#1E5AFF"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+                <circle class="node node-a" cx="42" cy="84" r="8" />
+                <circle class="node node-b" cx="136" cy="132" r="8" />
+                <circle class="node node-c" cx="444" cy="95" r="8" />
+                <circle class="node node-d" cx="485" cy="292" r="8" />
+                <circle class="node node-e" cx="142" cy="384" r="8" />
+                <circle class="node node-f" cx="209" cy="57" r="8" />
+                <circle class="node node-g" cx="376" cy="411" r="8" />
+
+                <path
+                  d="M67 84h28M444 70v-19M485 317v18M117 384h-28"
+                  stroke="#F59E0B"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+              <div class="visual-label label-top">
+                <span class="live-dot"></span>
+                Concept to circuit
+              </div>
+
+              <div class="visual-label label-bottom">
+                Built for clarity
+                <strong>01—04</strong>
+              </div>
+            </div>
+
+            <div class="floating-note note-one">
+              <span class="note-icon">✓</span>
+              <span>
+                <strong>Prototype ready</strong>
+                <small>Testable, not theoretical</small>
+              </span>
+            </div>
+
+            <div class="floating-note note-two">
+              <span class="note-icon amber">⌁</span>
+              <span>
+                <strong>Connected thinking</strong>
+                <small>Hardware + firmware</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="content-section services-section"
+        id="services"
+        data-testid="services-section"
+      >
+        <div class="container">
+          <div
+            class="section-heading reveal"
+            data-testid="services-heading-block"
+          >
+            <div>
+              <p class="section-kicker" data-testid="services-kicker">
+                WHAT WE DO
+              </p>
+
+              <h2 data-testid="services-heading">
+                Good projects start with<br />
+                <span>the right questions.</span>
+              </h2>
+            </div>
+
+            <p data-testid="services-intro">
+              Whether you are learning, validating, or launching, get hands-on
+              electronics support that keeps the next step clear.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal" data-testid="service-card-1">
+              <span class="service-number">01</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-1">
+                Electronics Consultancy
+              </h3>
+
+              <p data-testid="service-description-1">
+                Turn a rough idea into a practical, buildable direction.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal reveal-delay"
+              data-testid="service-card-2"
+            >
+              <span class="service-number">02</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-2">Project Planning</h3>
+
+              <p data-testid="service-description-2">
+                Break complex builds into milestones you can actually follow.
+              </p>
+            </article>
+
+            <article class="service-card reveal" data-testid="service-card-3">
+              <span class="service-number">03</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <rect x="5" y="5" width="14" height="14" rx="2" />
+                  <path d="M9 9h6v6H9zM9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M19 9h4M1 15h4M19 15h4" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-3">Component Selection</h3>
+
+              <p data-testid="service-description-3">
+                Choose parts that fit your performance, budget, and timeline.
+              </p>
+            </article>
+
+            <article class="service-card reveal" data-testid="service-card-4">
+              <span class="service-number">04</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M3 7h18M3 17h18M7 3v4M17 3v4M7 17v4M17 17v4M3 7v10M21 7v10" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-4">PCB Design</h3>
+
+              <p data-testid="service-description-4">
+                Move from schematic to a clean, production-minded board.
+              </p>
+            </article>
+
+            <article class="service-card reveal" data-testid="service-card-5">
+              <span class="service-number">05</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-5">Circuit Design</h3>
+
+              <p data-testid="service-description-5">
+                Shape reliable circuits with a focus on how they behave in use.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal reveal-delay"
+              data-testid="service-card-6"
+            >
+              <span class="service-number">06</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <rect x="6" y="6" width="12" height="12" rx="2" />
+                  <path d="M9 9h6v6H9zM9 1v5M15 1v5M9 18v5M15 18v5M1 9h5M1 15h5M18 9h5M18 15h5" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-6">
+                Embedded Systems Development
+              </h3>
+
+              <p data-testid="service-description-6">
+                Bring hardware to life with clear, purposeful firmware.
+              </p>
+            </article>
+
+            <article class="service-card reveal" data-testid="service-card-7">
+              <span class="service-number">07</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M5 9a10 10 0 0 1 14 0M8 12a6 6 0 0 1 8 0M11 15a2 2 0 0 1 2 0M12 19h.01" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-7">
+                ESP32 and IoT Development
+              </h3>
+
+              <p data-testid="service-description-7">
+                Connect sensors and ideas to useful, responsive experiences.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal reveal-delay"
+              data-testid="service-card-8"
+            >
+              <span class="service-number">08</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <rect x="4" y="4" width="16" height="16" rx="2" />
+                  <path d="m8 9 3 3-3 3M13 15h3" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-8">Raspberry Pi Projects</h3>
+
+              <p data-testid="service-description-8">
+                Prototype smart devices, automation, and computer-vision builds.
+              </p>
+            </article>
+
+            <article class="service-card reveal" data-testid="service-card-9">
+              <span class="service-number">09</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M12 3 3 8l9 5 9-5-9-5ZM3 12l9 5 9-5M3 16l9 5 9-5" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-9">Prototype Development</h3>
+
+              <p data-testid="service-description-9">
+                Make, test, and improve the first version without guesswork.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal reveal-delay"
+              data-testid="service-card-10"
+            >
+              <span class="service-number">10</span>
+
+              <div class="icon-tile">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M12 3v5M5.6 5.6 9 9M3 12h5M5.6 18.4 9 15M12 21v-5M18.4 18.4 15 15M21 12h-5M18.4 5.6 15 9" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </div>
+
+              <h3 data-testid="service-title-10">
+                Electronics Product Development
+              </h3>
+
+              <p data-testid="service-description-10">
+                Build a stronger path from working prototype to product.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section
+        class="content-section projects-section"
+        id="projects"
+        data-testid="projects-section"
+      >
+        <div class="container">
+          <div
+            class="section-heading reveal"
+            data-testid="projects-heading-block"
+          >
+            <div>
+              <p class="section-kicker" data-testid="projects-kicker">
+                SELECTED PROJECTS
+              </p>
+
+              <h2 data-testid="projects-heading">
+                Ideas, made<br />
+                <span>tangible.</span>
+              </h2>
+            </div>
+
+            <p data-testid="projects-intro">
+              Placeholder projects below show the kind of practical,
+              cross-disciplinary work we love to explore.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- PLACEHOLDER PROJECT:
+                 Replace the visual, title, category, and description. -->
+            <article class="project-card reveal" data-testid="project-card-1">
+              <div
+                class="project-visual project-green"
+                role="img"
+                aria-label="Placeholder illustration of an IoT agriculture sensor node"
+              >
+                <div class="project-grid-lines"></div>
+                <span class="project-chip">ESP32</span>
+                <div class="project-orbit"></div>
+
+                <div class="project-sensor">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>IoT / SENSORS</span>
+                  <span>01</span>
+                </div>
+
+                <h3 data-testid="project-title-1">
+                  Smart IoT Agriculture Sensor Node
+                </h3>
+
+                <p data-testid="project-description-1">
+                  Low-power ESP32 soil &amp; weather telemetry prototype.
+                </p>
+              </div>
+            </article>
+
+            <!-- PLACEHOLDER PROJECT -->
+            <article
+              class="project-card reveal reveal-delay"
+              data-testid="project-card-2"
+            >
+              <div
+                class="project-visual project-blue"
+                role="img"
+                aria-label="Placeholder illustration of a motor controller PCB"
+              >
+                <div class="pcb-pattern"></div>
+                <span class="project-chip">PCB / 04L</span>
+
+                <div class="pcb-board">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>PCB DESIGN</span>
+                  <span>02</span>
+                </div>
+
+                <h3 data-testid="project-title-2">
+                  Custom 4-Layer Motor Controller PCB
+                </h3>
+
+                <p data-testid="project-description-2">
+                  High-current BLDC driver board design.
+                </p>
+              </div>
+            </article>
+
+            <!-- PLACEHOLDER PROJECT -->
+            <article class="project-card reveal" data-testid="project-card-3">
+              <div
+                class="project-visual project-amber"
+                role="img"
+                aria-label="Placeholder illustration of a Raspberry Pi vision rig"
+              >
+                <div class="camera-frame">
+                  <div class="camera-lens"></div>
+                  <span>RPI</span>
+                </div>
+
+                <span class="project-chip">VISION</span>
+                <div class="camera-scan"></div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>COMPUTER VISION</span>
+                  <span>03</span>
+                </div>
+
+                <h3 data-testid="project-title-3">
+                  Automated Industrial Quality Inspector
+                </h3>
+
+                <p data-testid="project-description-3">
+                  Raspberry Pi camera machine vision rig.
+                </p>
+              </div>
+            </article>
+
+            <!-- PLACEHOLDER PROJECT -->
+            <article
+              class="project-card reveal reveal-delay"
+              data-testid="project-card-4"
+            >
+              <div
+                class="project-visual project-pink"
+                role="img"
+                aria-label="Placeholder illustration of a wearable health monitor"
+              >
+                <div class="waveform">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="project-chip">BLE</span>
+                <div class="pulse-dot"></div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>WEARABLES</span>
+                  <span>04</span>
+                </div>
+
+                <h3 data-testid="project-title-4">
+                  Wearable Health Monitor Prototype
+                </h3>
+
+                <p data-testid="project-description-4">
+                  Micro-PCB with BLE &amp; pulse oximeter integration.
+                </p>
+              </div>
+            </article>
+
+            <!-- PLACEHOLDER PROJECT -->
+            <article class="project-card reveal" data-testid="project-card-5">
+              <div
+                class="project-visual project-solar"
+                role="img"
+                aria-label="Placeholder illustration of a solar battery charger"
+              >
+                <div class="solar-panel">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+
+                <span class="project-chip">MPPT</span>
+                <div class="sun-mark">☼</div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>POWER ELECTRONICS</span>
+                  <span>05</span>
+                </div>
+
+                <h3 data-testid="project-title-5">
+                  Solar MPPT Battery Charger
+                </h3>
+
+                <p data-testid="project-description-5">
+                  Efficient power electronics circuit for college research.
+                </p>
+              </div>
+            </article>
+
+            <!-- PLACEHOLDER PROJECT -->
+            <article
+              class="project-card reveal reveal-delay"
+              data-testid="project-card-6"
+            >
+              <div
+                class="project-visual project-violet"
+                role="img"
+                aria-label="Placeholder illustration of an RFID asset tracking gateway"
+              >
+                <div class="rfid-rings">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+
+                <span class="project-chip">RFID</span>
+                <div class="rfid-node">⌁</div>
+              </div>
+
+              <div class="project-copy">
+                <div class="project-meta">
+                  <span>EMBEDDED / CLOUD</span>
+                  <span>06</span>
+                </div>
+
+                <h3 data-testid="project-title-6">
+                  RFID Asset Tracking Gateway
+                </h3>
+
+                <p data-testid="project-description-6">
+                  Embedded STM32 cellular cloud controller.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM SECTION with 7 members (no manual clones; JS will auto-clone) -->
+      <section
+        class="content-section team-section"
+        id="team"
+        data-testid="team-section"
+      >
+        <div class="container">
+          <div
+            class="section-heading reveal"
+            data-testid="team-heading-block"
+          >
+            <div>
+              <p class="section-kicker" data-testid="team-kicker">
+                OUR TEAM
+              </p>
+
+              <h2 data-testid="team-heading">
+                People who enjoy<br />
+                <span>making things work.</span>
+              </h2>
+            </div>
+
+            <p data-testid="team-intro">
+              Approachable engineering support, whether you are holding your
+              first breadboard or refining your fifth revision.
+            </p>
+          </div>
+
+          <!-- Team slider viewport -->
+          <div class="team-grid">
+            <!-- Track; original cards only; JS will add clones automatically -->
+            <div class="team-track">
+              <!-- Member 1 -->
+              <article class="team-card reveal" data-testid="team-card-1">
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/varun.png"
+                    alt="Er. Varun Lodhi"
+                    data-testid="team-photo-1"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-1">
+                      Lead Electronics Engineer
+                    </p>
+                    <h3 data-testid="team-name-1">Er. Vikram Kumar</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-1">
+                  Placeholder bio: an electronics engineer who enjoys simplifying
+                  complex circuits and helping early ideas become confident
+                  prototypes.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Er. Vikram Kumar"
+                  data-testid="team-linkedin-link-1"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 2 -->
+              <article
+                class="team-card reveal reveal-delay"
+                data-testid="team-card-2"
+              >
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/khush.png"
+                    alt="Er. Khush Lihankar"
+                    data-testid="team-photo-2"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-2">
+                      Embedded Systems &amp; IoT Architect
+                    </p>
+                    <h3 data-testid="team-name-2">Er. Kartik Sharma</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-2">
+                  Placeholder bio: an embedded systems enthusiast focused on
+                  connected devices, clear code, and useful technology that works
+                  beyond the demo.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Er. Kartik Sharma"
+                  data-testid="team-linkedin-link-2"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 3 -->
+              <article class="team-card reveal" data-testid="team-card-3">
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/shubham.png"
+                    alt="Er. Shubham Solanki"
+                    data-testid="team-photo-3"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-3">
+                      PCB Design Specialist
+                    </p>
+                    <h3 data-testid="team-name-3">Team Member 3</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-3">
+                  Placeholder bio: focused on clean, manufacturable PCB layouts.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Team Member 3"
+                  data-testid="team-linkedin-link-3"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 4 -->
+              <article
+                class="team-card reveal reveal-delay"
+                data-testid="team-card-4"
+              >
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/uday.png"
+                    alt="Er. Uday Panchal"
+                    data-testid="team-photo-4"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-4">
+                      Firmware Engineer
+                    </p>
+                    <h3 data-testid="team-name-4">Team Member 4</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-4">
+                  Placeholder bio: writes clean, tested firmware for embedded devices.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Team Member 4"
+                  data-testid="team-linkedin-link-4"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 5 -->
+              <article class="team-card reveal" data-testid="team-card-5">
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/manish.png"
+                    alt="Er. Manish Kushwaha"
+                    data-testid="team-photo-5"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-5">
+                      IoT Solutions Architect
+                    </p>
+                    <h3 data-testid="team-name-5">Team Member 5</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-5">
+                  Placeholder bio: connects sensors and devices into useful systems.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Team Member 5"
+                  data-testid="team-linkedin-link-5"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 6 -->
+              <article
+                class="team-card reveal reveal-delay"
+                data-testid="team-card-6"
+              >
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/dipendra.png"
+                    alt="Er. Dipendra Padiyar"
+                    data-testid="team-photo-6"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-6">
+                      Product Prototyper
+                    </p>
+                    <h3 data-testid="team-name-6">Team Member 6</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-6">
+                  Placeholder bio: builds and tests early versions without guesswork.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Team Member 6"
+                  data-testid="team-linkedin-link-6"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+
+              <!-- Member 7 -->
+              <article class="team-card reveal" data-testid="team-card-7">
+                <div class="team-card-top">
+                  <img
+                    class="team-photo"
+                    src="images/gourav.png"
+                    alt="Er. Gourav Chaurasiya"
+                    data-testid="team-photo-7"
+                  />
+                  <div>
+                    <p class="team-role" data-testid="team-role-7">
+                      Hardware Testing Lead
+                    </p>
+                    <h3 data-testid="team-name-7">Team Member 7</h3>
+                  </div>
+                </div>
+                <p data-testid="team-bio-7">
+                  Placeholder bio: validates designs to ensure they work reliably.
+                </p>
+                <a
+                  class="placeholder-link"
+                  href="#"
+                  aria-label="LinkedIn Profile Placeholder for Team Member 7"
+                  data-testid="team-linkedin-link-7"
+                >
+                  <span class="linkedin-icon">in</span>
+                  LinkedIn Profile
+                  <span class="placeholder-tag">Placeholder</span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact-section"
+        id="contact"
+        data-testid="contact-section"
+      >
+        <div class="container contact-card" data-testid="contact-card">
+          <div class="contact-mark" aria-hidden="true">
+            <span>VK</span>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+
+          <div class="contact-copy">
+            <p class="section-kicker light-kicker" data-testid="contact-kicker">
+              START A CONVERSATION
+            </p>
+
+            <h2 data-testid="contact-heading">
+              Ready to build<br />
+              <span>your project?</span>
+            </h2>
+
+            <p data-testid="contact-description">
+              VK Electronics and Consultancy<br />
+              <strong>For startups, schools, and college students.</strong>
+            </p>
+          </div>
+
+          <!-- EDIT YOUR WHATSAPP PHONE NUMBER HERE:
+               Replace 91XXXXXXXXXX with your real number including country code. -->
+          <a
+            class="button button-whatsapp"
+            href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20your%20electronics%20consultancy%20services"
+            target="_blank"
+            rel="noopener"
+            aria-label="Message VK Electronics and Consultancy on WhatsApp"
+            data-testid="contact-whatsapp-btn"
+          >
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.2.4 11.7c0 2.1.6 4.1 1.6 5.8L.3 23.8l6.5-1.7a11.8 11.8 0 0 0 5.3 1.3h.1c6.4 0 11.7-5.2 11.7-11.7 0-3.1-1.2-6.1-3.4-8.2Z"
+              />
+            </svg>
+
+            <span>Message Us on WhatsApp</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer" data-testid="footer">
+      <div class="container footer-grid">
+        <div>
+          <a
+            class="brand footer-brand"
+            href="#hero"
+            aria-label="Back to VK Electronics and Consultancy home"
+            data-testid="footer-brand-link"
+          >
+            <span class="brand-mark">
+              <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect
+                  x="7"
+                  y="7"
+                  width="18"
+                  height="18"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 2v5M20 2v5M12 25v5M20 25v5M2 12h5M25 12h5M2 20h5M25 20h5"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+
+            <span class="brand-copy" data-testid="footer-business-name">
+              <strong>VK</strong>
+              <span>Electronics &amp; Consultancy</span>
+            </span>
+          </a>
+
+          <p data-testid="footer-tagline">
+            Electronics consultancy for startups and students — from idea to
+            working prototype.
+          </p>
+        </div>
+
+        <nav
+          class="footer-nav"
+          aria-label="Footer navigation"
+          data-testid="footer-navigation"
+        >
+          <a href="#services" data-testid="footer-services-link">Services</a>
+          <a href="#team" data-testid="footer-team-link">Team</a>
+          <a href="#projects" data-testid="footer-projects-link">Projects</a>
+          <a href="#contact" data-testid="footer-contact-link">Contact</a>
+        </nav>
+
+        <div class="footer-action">
+          <!-- EDIT YOUR WHATSAPP PHONE NUMBER HERE:
+               Replace 91XXXXXXXXXX with your real number including country code. -->
+          <a
+            class="button button-small button-outline"
+            href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20your%20electronics%20consultancy%20services"
+            target="_blank"
+            rel="noopener"
+            aria-label="Chat on WhatsApp with VK Electronics"
+            data-testid="footer-whatsapp-btn"
+          >
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.2.4 11.7c0 2.1.6 4.1 1.6 5.8L.3 23.8l6.5-1.7a11.8 11.8 0 0 0 5.3 1.3h.1c6.4 0 11.7-5.2 11.7-11.7 0-3.1-1.2-6.1-3.4-8.2Z"
+              />
+            </svg>
+
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span data-testid="footer-copyright">
+          © 2026 VK Electronics and Consultancy. All rights reserved.
+        </span>
+
+        <span data-testid="footer-note">
+          Built around better questions.
+        </span>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
